@@ -1,0 +1,63 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  h1{
+    color: #1babcb;
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px 10px 20px ;
+  }
+  #task-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #task-entry {
+    padding: 10px;
+    width: 50%;
+  }
+  
+  #priority, #category {
+    padding: 10px;
+    width: 20%;
+  }
+  
+  #due-date {
+    padding: 12px;
+    width: 16%;
+  }
+  
+  #add-task {
+    background-color: #4CAF50;
+    color: #000000;
+    font-family: cursive;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #task-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+  }
+  
+  .task-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .task-item:last-child {
+    border-bottom: none;
+  }
+  
+  .task-item.checked {
+    text-decoration: line-through;
+  }
